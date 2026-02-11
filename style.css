@@ -136,7 +136,7 @@ small {
 /* RIGHT SIDE */
 .hero-right {
   width: 50%;
-  background: url("background.png") center/cover no-repeat;
+  background: url("/image/background.png") center/cover no-repeat;
 }
 
 @media (max-width: 768px) {
