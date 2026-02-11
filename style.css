@@ -14,37 +14,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Hamburger icon */
-.hamburger {
-  width: 30px;
-  cursor: pointer;
-}
-
-.hamburger span {
-  display: block;
-  height: 4px;
-  background: black;
-  margin: 5px 0;
-}
-
-/* Hidden menu */
-.menu {
-  display: none;
-  margin-top: 10px;
-}
-
-.menu a {
-  display: block;
-  padding: 8px;
-  text-decoration: none;
-  color: black;
-}
-
-/* Show menu when active */
-.menu.show {
-  display: block;
-}
-
 
 /* NAVBAR */
 .navbar {
@@ -136,7 +105,9 @@ small {
 /* RIGHT SIDE */
 .hero-right {
   width: 50%;
-  background-image: url("/image/background.png") center/cover no-repeat;
+  background-image: url("/image/background.png") ;
+  background-size: cover;
+  background-position: center;
 }
 
 @media (max-width: 768px) {
