@@ -176,16 +176,6 @@ small {
   }
 }
 
-/* CLIENTS */
-/* .clients {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #FFFFFF;
-    padding-top: 50.72px;
-    padding-left: 255px;
-    padding-right: 255.6px;
-} */
 
 .brands {
   display: flex;
@@ -302,6 +292,7 @@ small {
   border-radius: 4px;
   cursor: pointer;
 }
+
 
 @media (max-width: 900px) {
 
