@@ -668,4 +668,7 @@ hr {
   .cta-form button {
     width: 100%;
   }
+  .content-image img{
+    display: none;
+  }
 }
