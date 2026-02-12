@@ -254,7 +254,9 @@ small {
 }
 
 .content-image {
-  width: 100%;
+  width: auto;
+  height: auto;
+  padding-right: 20px;
 }
 
 .mockup {
@@ -668,7 +670,42 @@ hr {
   .cta-form button {
     width: 100%;
   }
-  .content-image img{
+  /* Only hide .content-image img on small screens, not .image-1 img */
+  .content-image img:not(.image-1 img) {
     display: none;
   }
+/* Responsive styles for .image-1 */
+.image-1 {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-1 img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .image-1 {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 600px) {
+  .image-1 {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 400px) {
+  .image-1 {
+    max-width: 180px;
+  }
+}
 }
