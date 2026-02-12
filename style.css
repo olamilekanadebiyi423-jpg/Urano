@@ -5,14 +5,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* .body-1 {
-  background: #0a1633;
-  color: #ffffff;
-} */
 
-body {
+/* body {
   font-family: Arial, sans-serif;
-}
+} */
 
 
 /* NAVBAR */
@@ -24,7 +20,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* z-index: 10; */
 }
 
 .logo {
@@ -76,8 +71,6 @@ body {
   display: flex;
   gap: 15px;
   margin-bottom: 15px;
-  /* color: #5558DB; */
-  /* background-color: #5558DB; */
 }
 
 .form input {
@@ -176,7 +169,7 @@ small {
   }
 }
 
-
+/* CLIENTS */
 .brands {
   display: flex;
   justify-content: space-between;
@@ -325,41 +318,6 @@ small {
   }
 }
 
-/* @media (max-width: 320px) {
-    
-.container {
-  width: 100%;
-  padding: 10px;
-}
-
-
-@media (min-width: 768px) {
-  .container {
-    width: 80%;
-  }
-} */
-
-  /* .container {
-  width: 80%;
-  margin: auto;
-} */
-
-/* .card {
-  display: flex;
-  gap: 20px;
-}
-
-.card img {
-  width: 200px;
-} */
-/* .content-image  {
-    width: 50%;
-} */
-/* } */
-
-
-
-
 body {
   background: #fff;
   color: #ffffff;
@@ -380,10 +338,6 @@ body {
   opacity: 0.9;
 }
 
-/* HERO */
-/* .hero {
-  padding: 80px 20px;
-} */
 
 .hero-container {
   max-width: 1100px;
@@ -420,7 +374,6 @@ body {
 /* PRICING */
 .pricing {
   padding: 80px 20px;
-  /* border-top: 2px solid blue; */
   text-align: center;
 }
 
@@ -579,7 +532,7 @@ hr {
   max-width: 1100px;
 }
 
-/* LINKS */
+/* FOOTER */
 .footer-links {
   max-width: 1100px;
   margin: auto;
@@ -670,11 +623,11 @@ hr {
   .cta-form button {
     width: 100%;
   }
-  /* Only hide .content-image img on small screens, not .image-1 img */
+
   .content-image img:not(.image-1 img) {
     display: none;
   }
-/* Responsive styles for .image-1 */
+
 .image-1 {
   width: 100%;
   max-width: 480px;
